@@ -80,3 +80,25 @@ Learning Rails 7 by building a blog
         new file:   vendor/.keep
         new file:   vendor/javascript/.keep
 
+#### 2. Generate a model article and run migration
+
+        > rails generate model article title:string content:text
+        invoke  active_record
+        create    db/migrate/20230818082725_create_articles.rb
+        create    app/models/article.rb
+        invoke    test_unit
+        create      test/models/article_test.rb
+        create      test/fixtures/articles.yml
+
+        > rails db:migrate
+        == 20230818082725 CreateArticles: migrating ===================================
+        -- create_table(:articles)
+           -> 0.0036s
+        == 20230818082725 CreateArticles: migrated (0.0039s) ==========================
+
+        modified:   README.md
+        new file:   app/models/article.rb
+        new file:   db/migrate/20230818082725_create_articles.rb
+        new file:   db/schema.rb
+        new file:   test/fixtures/articles.yml
+        new file:   test/models/article_test.rb
