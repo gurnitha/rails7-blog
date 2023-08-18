@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   # http://127.0.0.1:3000/articles to:"controller with index action"
-  get "/articles", to: "articles#index"
+
+  # get "/articles", to: "articles#index"
+  # root route
+  root "articles#index"
 end

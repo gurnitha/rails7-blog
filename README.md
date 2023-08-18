@@ -125,3 +125,8 @@ Learning Rails 7 by building a blog
         modified:   app/controllers/articles_controller.rb
         new file:   app/views/articles/index.html.erb
         modified:   config/routes.rb
+
+#### 5. Creating 'home' route
+
+        modified:   app/views/articles/index.html.erb
+        modified:   config/routes.rb
