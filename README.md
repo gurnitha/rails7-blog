@@ -102,3 +102,20 @@ Learning Rails 7 by building a blog
         new file:   db/schema.rb
         new file:   test/fixtures/articles.yml
         new file:   test/models/article_test.rb
+
+#### 3. Generate a controller 'articles'
+
+        > rails generate controller articles
+        create  app/controllers/articles_controller.rb
+        invoke  erb
+        create    app/views/articles
+        invoke  test_unit
+        create    test/controllers/articles_controller_test.rb
+        invoke  helper
+        create    app/helpers/articles_helper.rb
+        invoke    test_unit
+
+        modified:   README.md
+        new file:   app/controllers/articles_controller.rb
+        new file:   app/helpers/articles_helper.rb
+        new file:   test/controllers/articles_controller_test.rb
