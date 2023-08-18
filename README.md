@@ -119,3 +119,9 @@ Learning Rails 7 by building a blog
         new file:   app/controllers/articles_controller.rb
         new file:   app/helpers/articles_helper.rb
         new file:   test/controllers/articles_controller_test.rb
+
+#### 4. Creating 'Hello World!' using Controller, Views, Route
+
+        modified:   app/controllers/articles_controller.rb
+        new file:   app/views/articles/index.html.erb
+        modified:   config/routes.rb
